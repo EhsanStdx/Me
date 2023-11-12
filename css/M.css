@@ -1,0 +1,2031 @@
+/*// Medium devices (tablets, 899px and up)*/
+@media screen and (min-width: 899px) and (max-width: 1199.98px){
+
+    /*header*/
+    /*header-top*/
+    header{
+        display: none;
+    }
+    header.small{
+
+    }
+
+    header.medium {
+        width: 100%;
+        height: 100px;
+        background-color: #ffffff;
+        display: flex;
+    }
+section.top{
+    display: none;
+}
+    section.topm {
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        z-index: 10;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.topm > div.logo {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    section.topm > div.logo > h1 {
+        font-size: 3rem;
+        font-family: IranNastaliq, serif;
+        margin-top: -10px;
+        text-shadow: 5px 10px rgba(0, 0, 0, 0.04);
+        display: flex;
+        justify-content: center;
+    }
+
+    section.topm > div.logo > h1 > span {
+        color: #1049e6;
+    }
+
+    section.topm > div.menu {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+flex-direction: column;
+        background-color: white;
+    }
+
+    section.topm > div.menu > nav {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.topm > div.menu > nav > ul {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        font-family: IranNastaliq, serif;
+        font-size: 2rem;
+        justify-content: center;
+        margin-top: -30px;
+    }
+
+    section.topm> div.menu > nav > ul > li {
+        padding-right: 50px;
+    }
+
+    section.topm > div.menu > nav > ul > li > a {
+        color: black;
+        transition: all 300ms;
+    }
+
+    section.topm > div.menu > nav > ul > li > a:hover {
+        color: #1049e6;
+        transition: all 300ms;
+    }
+
+    /*end header-top*/
+    /*end header*/
+    /*main*/
+    /*main-bio*/
+    main{
+    display: none;
+    }
+
+    main.small{
+        display: none;
+    }
+
+    main.medium {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.biom {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+background-color: white;
+    }
+
+    section.biom > div.left{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    section.biom > div.left > div.line {
+        width: 350px;
+        height: 400px;
+        border: 6px solid #1049e6;
+        border-radius: 5px;
+        margin-top: 125px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    section.biom > div.left > div.img{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    section.biom > div.left > div.img > img {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 350px;
+        height: 400px;
+        border-radius: 5px;
+        margin-top: -470px;
+        margin-left: 90px;
+    }
+
+    section.biom > div.right {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        margin-top: 50px;
+    }
+
+    section.biom > div.right > div {
+        width: 100px;
+        height: 10px;
+        background-color: #1049e6;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.biom > div.right > h1 {
+        font-size: 5rem;
+        font-family: "B Karim", serif;
+        margin-top: -20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.biom > div.right > p {
+        font-size: 1.5rem;
+        font-family: "B Karim", serif;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.biom > div.right > a:nth-of-type(2){
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.biom > div.right > a:nth-of-type(2) > i {
+        font-size: 1.5rem;
+        padding-right: 40px;
+        padding-top: 30px;
+        transition: all 500ms;
+        color: black;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    section.biom > div.right > a:nth-of-type(2) > i.fa-facebook {
+margin-right: -50px;
+    }
+
+    section.biom > div.right > a:nth-of-type(2) > i:hover {
+        color: #1049e6;
+        transition: all 500ms;
+    }
+
+    section.biom > div.right > a:nth-of-type(1) {
+        width: 150px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1049e6;
+        margin-top: 30px;
+        font-size: 1.75rem;
+        font-weight: 800;
+        font-family: "B Compset", serif;
+        color: black;
+        transition: all 500ms;
+    }
+
+    section.biom > div.right > a:nth-of-type(1):hover {
+        background-color: rgba(16, 73, 230, 0.57);
+        transition: all 500ms;
+    }
+
+
+    /*end main-bio*/
+    /*main-about*/
+    section.aboutm {
+        margin-top: 50px;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(16, 73, 230, 0.08);
+        display: flex;
+    }
+
+    section.aboutm > div.right {
+        width: 50%;
+        height: inherit;
+    }
+
+    section.aboutm > div.right > div {
+        width: 300px;
+        height: 500px;
+        border: 7px solid #1049e6;
+        border-radius: 5px;
+        margin-right: 100px;
+        margin-top: 100px;
+    }
+
+    section.aboutm > div.right > div > img {
+        width: 300px;
+        height: 500px;
+        margin-right: 25px;
+        margin-top: -35px;
+        border-radius: 5px;
+    }
+
+    section.aboutm > div.left {
+        width: 50%;
+        height: inherit;
+    }
+
+    section.aboutm > div.left > h1 {
+        margin-top: 60px;
+        font-size: 3rem;
+        font-family: "B Karim", serif;
+    }
+
+    section.aboutm > div.left > div {
+        width: 100px;
+        height: 5px;
+        background-color: #1049e6;
+    }
+
+    section.aboutm > div.left > p {
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        font-weight: 600;
+        margin-top: 20px;
+        padding-left: 50px;
+    }
+
+    section.aboutm > div.left > a {
+        width: 125px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(16, 73, 230);
+        color: black;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        margin-top: 35px;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.aboutm > div.left > a:hover {
+        background-color: rgba(16, 73, 230, 0.58);
+        transition: all 500ms;
+    }
+
+    /*end main-about*/
+    /*main-services*/
+    section.servicesm {
+        width: 100%;
+        height: 500px;
+    }
+
+    section.servicesm > div.top {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    section.servicesm > div.top > h1 {
+        width: 10px;
+        font-size: 3.5rem;
+        font-family: "B Karim", serif;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.servicesm > div.top > div {
+        width: 100px;
+        height: 5px;
+        background-color: #1049e6;
+        margin-top: -50px;
+    }
+
+    section.servicesm >div{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    section.servicesm >div> div.first {
+        width: 23%;
+        height: 315px;
+        background-color: rgba(16, 73, 230, 0.08);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.servicesm > div>div.first > i {
+        margin-top: 20px;
+        font-size: 2.25rem;
+    }
+
+    section.servicesm > div>div.first > h3 {
+        font-size: 1.5rem;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+    }
+
+    section.servicesm > div>div.first > div {
+        width: 100px;
+        height: 2px;
+        background-color: #1049e6;
+        color: white;
+        transition: all 500ms;
+    }
+
+    section.servicesm > div>div.first > p {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    section.servicesm > div>div.first:hover {
+        color: white;
+        background-color: #1049e6;
+        transition: all 500ms;
+    }
+
+    section.servicesm > div>div.first:hover > div {
+        width: 100px;
+        height: 2px;
+        background-color: white;
+        transition: all 500ms;
+    }
+
+    section.servicesm >div> div.second {
+        width: 23%;
+        height: 315px;
+        background-color: rgba(16, 73, 230, 0.08);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.servicesm > div>div.second > i {
+        margin-top: 20px;
+        font-size: 2.25rem;
+    }
+
+    section.servicesm > div>div.second > h3 {
+        font-size: 1.5rem;
+        font-family: "B Compset", serif;
+        font-weight: 700;
+    }
+
+    section.servicesm > div>div.second > div {
+        width: 100px;
+        height: 2px;
+        background-color: #1049e6;
+        transition: all 500ms;
+    }
+
+    section.servicesm > div>div.second > p {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    section.servicesm > div>div.second:hover {
+        color: white;
+        background-color: #1049e6;
+        transition: all 500ms;
+    }
+
+    section.servicesm > div>div.second:hover > div {
+        width: 100px;
+        height: 2px;
+        background-color: white;
+        transition: all 500ms;
+    }
+
+    section.servicesm > div>div.third {
+        width: 23%;
+        height: 315px;
+        background-color: rgba(16, 73, 230, 0.08);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.servicesm > div>div.third > i {
+        margin-top: 20px;
+        font-size: 2.25rem;
+    }
+
+    section.servicesm > div>div.third > h3 {
+        font-size: 1.5rem;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+    }
+
+    section.servicesm > div>div.third > div {
+        width: 100px;
+        height: 2px;
+        background-color: #1049e6;
+        transition: all 500ms;
+    }
+
+    section.servicesm > div>div.third > p {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    section.servicesm >div> div.third:hover {
+        color: white;
+        background-color: #1049e6;
+        transition: all 500ms;
+    }
+
+    section.servicesm > div>div.third:hover > div {
+        width: 100px;
+        height: 2px;
+        background-color: white;
+        transition: all 500ms;
+    }
+
+    /*end main-services*/
+    /*main-works*/
+    section.worksm {
+        width: 100%;
+        height:fit-content;
+
+    }
+
+    section.workm > div.text {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    section.workm > div.text > h1 {
+        font-size: 3rem;
+        font-family: "B Karim", serif;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    section.workm > div.text > div {
+        width: 150px;
+        height: 5px;
+        background-color: #1049e6;
+    }
+
+    section.workm > div.text > p {
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    section.workm > div.img {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    section.workm > div.img >div.fise{
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    section.workm > div.img >div.fise> div.fi {
+        width: 380px;
+        height: 300px;
+        position: relative;
+        border-radius: 10px;
+        transition: all 500ms;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.workm > div.img >div.fise> div.fi > div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(16, 73, 230, 0.6);
+        position: absolute;
+        border-radius: 10px;
+        transition: all 500ms;
+        opacity: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.workm > div.img > div.fise>div.fi > img {
+        width: 380px;
+        height: 300px;
+        border-radius: 10px;
+        display: block;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img:first-child >div.fise> div:hover > img {
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.fise>div.fi:hover > div {
+        opacity: 1;
+        transition: all 500ms;
+    }
+
+
+    section.workm > div.img >div.fise> div.fi > div > a {
+        width: 380px;
+        height: 300px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        background-color: rgba(16, 73, 230, 0.53);
+        margin-top: -204px;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.fise>div.fi > div > div > h1 {
+        font-family: "B Baran", serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: 90px;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img >div.fise> div.fi > div > div > h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "B Baran", serif;
+        font-weight: 200;
+        color: white;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img >div.fise> div.fi > div > div {
+        width: 350px;
+        height: 275px;
+        border: 3px solid white;
+        transition: all 500ms;
+        cursor: pointer;
+    }
+
+    section.workm > div.img > div.fise>div.fi > div:hover > div {
+        animation: zoomIn 500ms;
+        transition: all 500ms linear;
+    }
+
+    @keyframes zoomIn {
+        0% {
+            transform: scale(1);
+            transition: all 1s;
+        }
+        100% {
+            transform: scale(2);
+            transition: all 1s;
+        }
+    }
+
+    section.workm > div.img > div.fise>div.se {
+        width: 360px;
+        height: 300px;
+    }
+
+    section.workm > div.img > div.fise>div.se > img {
+        width: 360px;
+        height: 300px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.workm > div.img > div.fise>div.se {
+        width: 360px;
+        height: 300px;
+        position: relative;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.fise>div.se > div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(16, 73, 230, 0.6);
+        position: absolute;
+        margin-top: -300px;
+        border-radius: 10px;
+        transition: all 500ms;
+        opacity: 0;
+    }
+
+    section.workm > div.img:first-child > div.fise>div:hover > img {
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.fise>div.se:hover > div {
+        opacity: 1;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.fise>div.se > div > a {
+        width: 360px;
+        height: 300px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        background-color: rgba(16, 73, 230, 0.53);
+        margin-top: -204px;
+        margin-right: 210px;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.fise>div.se > div > div > h1 {
+        font-family: "B Baran", serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: 90px;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.fise>div.se > div > div > h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "B Baran", serif;
+        font-weight: 200;
+        color: white;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.fise>div.se > div > div {
+        margin-right: 10px;
+        margin-top: 15px;
+        width: 340px;
+        height: 275px;
+        border: 3px solid white;
+        transition: all 500ms;
+        cursor: pointer;
+    }
+
+    section.workm > div.img > div.fise>div.se > div:hover > div {
+        animation: zoomIn 500ms;
+        transition: all 500ms linear;
+    }
+
+    section.workm > div.img > div.th {
+        height: 300px;
+        position: relative;
+        border-radius: 10px;
+        transition: all 500ms;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    section.workm > div.img > div.th > img {
+        width: 775px;
+        height: 300px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    section.workm > div.img > div.th > div {
+        width: 775px;
+        height: 100%;
+        background-color: rgba(16, 73, 230, 0.6);
+        position: absolute;
+        border-radius: 10px;
+        transition: all 500ms;
+        opacity: 0;
+    }
+
+    section.workm > div.img > div.th > img {
+        width: 775px;
+        height: 300px;
+        border-radius: 10px;
+        display: block;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img:first-child > div:hover > img {
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.th:hover > div {
+        opacity: 1;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.th > div > a {
+        width: 775px;
+        height: 300px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        background-color: rgba(16, 73, 230, 0.53);
+        margin-top: -204px;
+        margin-right: -530px;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.th > div > div > h1 {
+        font-family: "B Baran", serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: 90px;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.th > div > div > h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "B Baran", serif;
+        font-weight: 200;
+        color: white;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.th > div > div {
+        margin-right: 10px;
+        margin-top: 15px;
+        width: 750px;
+        height: 275px;
+        border: 3px solid white;
+        transition: all 500ms;
+        cursor: pointer;
+    }
+
+    section.workm > div.img > div.th > div:hover > div {
+        animation: zoomIn 500ms;
+        transition: all 500ms linear;
+    }
+
+    section.workm> div.img > div.fo {
+        height: 620px;
+        position: relative;
+        border-radius: 10px;
+        transition: all 500ms;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    section.workm > div.img > div.fo > img {
+        width: 375px;
+        height: 600px;
+        border-radius: 10px;
+        display: flex;
+    }
+
+
+    section.workm> div.img > div.fo > div {
+        width: 375px;
+        height: 100%;
+        background-color: rgba(16, 73, 230, 0.6);
+        position: absolute;
+        border-radius: 10px;
+        transition: all 500ms;
+        opacity: 0;
+    }
+
+    section.workm > div.img > div.fo > img {
+        width: 375px;
+        height: 620px;
+        border-radius: 10px;
+        display: block;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img:first-child > div:hover > img {
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.fo:hover > div {
+        opacity: 1;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.fo > div > a {
+        width: 375px;
+        height: 690px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        background-color: rgba(16, 73, 230, 0.53);
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.fo > div > div > h1 {
+        font-family: "B Baran", serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: 250px;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.fo > div > div > h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "B Baran", serif;
+        font-weight: 200;
+        color: white;
+        transition: all 500ms;
+    }
+
+    section.workm > div.img > div.fo > div > div {
+        margin-right: 10px;
+        margin-top: 15px;
+        width: 350px;
+        height: 595px;
+        border: 3px solid white;
+        transition: all 500ms;
+        cursor: pointer;
+    }
+
+    section.workm > div.img > div.fo > div:hover > div {
+        animation: zoomIn 500ms;
+        transition: all 500ms linear;
+    }
+
+    /*end main-work*/
+    /*main-contact*/
+    section.contactm {
+        width: 100%;
+        height: 850px;
+        background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(227, 221, 221, 0.7)), url(/img/149553-black_background-blue-skull.jpg) center/cover no-repeat;
+        margin-top: 30px;
+    }
+
+    section.contactm > div.con {
+        width: 650px;
+        height: 385px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 300px auto;
+    }
+
+    section.contactm > div.con > h1 {
+        font-size: 3rem;
+        margin-top: -40px;
+        font-family: "B Karim", serif;
+    }
+
+    section.contactm > div.con > div {
+        width: 150px;
+        height: 3px;
+        background-color: #1049e6;
+    }
+
+    section.contactm > div.con > p {
+        text-align: center;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        margin-top: 30px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    section.contactm > div.con > a {
+        margin-top: 20px;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #1049e6;
+        color: black;
+        font-size: 1.25rem;
+        font-family: "B Baran", serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 400ms;
+    }
+
+    section.contactm > div.con > a:hover {
+        background-color: rgba(16, 73, 230, 0.52);
+        transition: all 400ms;
+    }
+
+    /*end main-contact*/
+    /*main-skill*/
+    section.skillm {
+        width: 100%;
+        height:800px;
+        background-color: rgba(16, 73, 230, 0.37);
+    }
+
+    section.skillm > div.top {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -20px;
+    }
+
+    section.skillm > div.top > h1 {
+        font-size: 2.75rem;
+        font-family: "B Karim", serif;
+        margin-top: -40px;
+    }
+
+    section.skillm > div.top > div {
+        width: 130px;
+        height: 3px;
+        background-color: #1049e6;
+        margin-top: -10px;
+    }
+
+    section.skillm > div.web {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -170px;
+    }
+
+    section.skillm > div.web > div.end {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section.skillm > div.web > div.end > h1 {
+        font-size: 2.75rem;
+        margin-top: 20px;
+        font-family: "Microsoft Uighur", serif;
+        font-weight: 800;
+
+    }
+
+    section.skillm > div.web > div.end > h3:nth-of-type(1) {
+        font-size: 1.5rem;
+        font-family: "Microsoft Uighur", serif;
+        margin-top: 20px;
+        word-spacing: 170px;
+        margin-right: 190px;
+    }
+
+    section.skillm > div.web > div.end > div.n1 {
+        width: 450px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: white;
+        margin-top: 15px;
+    }
+
+    section.skillm > div.web > div.end > div.n2 {
+        width: 250px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #1049e6;
+        margin-top: -17px;
+        margin-right: 200px;
+    }
+
+    section.skillm > div.web > div.end > h3:nth-of-type(2) {
+        font-size: 1.5rem;
+        font-family: "Microsoft Uighur", serif;
+        margin-top: 20px;
+        word-spacing: 290px;
+        margin-right: 80px;
+    }
+
+    section.skillm > div.web > div.end > div.n23 {
+        width: 350px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #1049e6;
+        margin-top: -17px;
+        margin-right: 100px;
+    }
+
+    section.skillm > div.web > div.end > h3:nth-of-type(3) {
+        font-size: 1.5rem;
+        font-family: "Microsoft Uighur", serif;
+        margin-top: 20px;
+        word-spacing: 320px;
+        margin-right: 30px;
+    }
+
+    section.skillm > div.web > div.end > div.n234 {
+        width: 400px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #1049e6;
+        margin-top: -17px;
+        margin-right: 50px;
+    }
+
+    section.skillm > div.web > div.front {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section.skillm > div.web > div.front > h1 {
+        font-size: 2.75rem;
+        margin-top: 20px;
+        font-family: "Microsoft Uighur", serif;
+        font-weight: 800;
+    }
+
+    section.skillm > div.web > div.front > h3:nth-of-type(1) {
+        font-size: 1.5rem;
+        font-family: "Microsoft Uighur", serif;
+        margin-top: 20px;
+        word-spacing: 180px;
+        margin-right: 140px;
+    }
+
+    section.skillm > div.web > div.front > div.n1 {
+        width: 450px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: white;
+        margin-top: 15px;
+    }
+
+    section.skillm > div.web > div.front > div.n2 {
+        width: 300px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #1049e6;
+        margin-top: -17px;
+        margin-right: 150px;
+    }
+
+    section.skillm > div.web > div.front > h3:nth-of-type(2) {
+        font-size: 1.5rem;
+        font-family: "Microsoft Uighur", serif;
+        margin-top: 20px;
+        word-spacing: 260px;
+        margin-right: 80px;
+    }
+
+    section.skillm > div.web > div.front > div.n23 {
+        width: 360px;
+        height: 20px;
+        border-radius: 25px;
+        background-color: #1049e6;
+        margin-top: -20px;
+        margin-right: 90px;
+    }
+
+    section.skillm > div.web > div.front > h3:nth-of-type(3) {
+        font-size: 1.5rem;
+        font-family: "Microsoft Uighur", serif;
+        margin-top: 20px;
+        word-spacing: 340px;
+        margin-right: 30px;
+    }
+
+    section.skillm > div.web > div.front > div.n234 {
+        width: 400px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #1049e6;
+        margin-top: -17px;
+        margin-right: 50px;
+    }
+
+    /*end main-skill*/
+    /*main timeline*/
+    section.timelinem {
+        width: 100%;
+        height: 2250px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.timelinem > div.top {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section.timelinem > div.top > h1 {
+        margin-top: 30px;
+        font-size: 3rem;
+        font-family: "B Compset", serif;
+    }
+
+    section.timelinem > div.top > div {
+        width: 150px;
+        height: 2px;
+        background-color: #1049e6;
+    }
+
+    section.timelinem > div.main {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.timelinem > div.main > div.right {
+        width: 600px;
+        height: 250px;
+        border-left: 2px dashed #1049e6;
+        margin-top: 80px;
+        border-bottom-left-radius: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.timelinem > div.main > div.right > h3 {
+        font-size: 1.5rem;
+        font-family: "B Lotus", serif;
+        position: static;
+        color: black;
+    }
+
+    section.timelinem > div.main > div.right > p {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.timelinem > div.main > div.circle1 {
+        width: 40px;
+        height: 40px;
+        background-color: #1049e6;
+        border-radius: 50%;
+        margin-right: 590px;
+        margin-top: -150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    section.timelinem > div.main > div.left {
+        width: 600px;
+        height: 275px;
+        border-right: 2px dashed #1049e6;
+        border-top: 2px dashed #1049e6;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 110px;
+        margin-left: 50px;
+    }
+
+    section.timelinem > div.main > div.left > h3 {
+        margin-top: 30px;
+        margin-right: -505px;
+        font-size: 1.5rem;
+        font-family: "B Lotus", serif;
+        position: static;
+    }
+
+    section.timelinem > div.main > div.left > p {
+        display: flex;
+        margin-top: 20px;
+        margin-right: 30px;
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.timelinem > div.main > div.circle2 {
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        background-color: #1049e6;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 650px;
+        margin-top: -150px;
+    }
+
+    section.timelinem > div.main > div.right1 {
+        width: 600px;
+        height: 275px;
+        border-left: 2px dashed #1049e6;
+        border-top: 2px dashed #1049e6;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 110px;
+    }
+
+    section.timelinem > div.main > div.right1 > h3 {
+        margin-top: 30px;
+        margin-right: -10px;
+        font-size: 1.5rem;
+        font-family: "B Lotus", serif;
+        position: static;
+    }
+
+    section.timelinem > div.main > div.right1 > p {
+        display: flex;
+        margin-top: 20px;
+        margin-right: -10px;
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.timelinem > div.main > div.circle3 {
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        background-color: #1049e6;
+        border-radius: 50%;
+        margin-right: 600px;
+        margin-top: -150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    section.timelinem > div.main > div.left1 {
+        width: 600px;
+        height: 275px;
+        border-right: 2px dashed #1049e6;
+        margin-top: 110px;
+        margin-left: 40px;
+        border-top: 2px dashed #1049e6;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    section.timelinem > div.main > div.left1 > h3 {
+        margin-top: 30px;
+        margin-right: 25px;
+        font-size: 1.5rem;
+        font-family: "B Lotus", serif;
+        position: static;
+    }
+
+    section.timelinem > div.main > div.left1 > p {
+        display: flex;
+        margin-top: 20px;
+        margin-right: 30px;
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.timelinem > div.main > div.circle4 {
+        z-index: 3;
+        width: 40px;
+        height: 40px;
+        background-color: #1049e6;
+        border-radius: 50%;
+        margin-left: 640px;
+        margin-top: -150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    section.timelinem > div.main > div.right2 {
+        width: 600px;
+        height: 275px;
+        border-left: 2px dashed #1049e6;
+        margin-top: 110px;
+        border-top: 2px dashed #1049e6;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    section.timelinem > div.main > div.right2 > h3 {
+        margin-top: 30px;
+        margin-right: -10px;
+        font-size: 1.5rem;
+        font-family: "B Lotus", serif;
+        position: static;
+    }
+
+    section.timelinem > div.main > div.right2 > p {
+        display: flex;
+        margin-top: 20px;
+        margin-right: -10px;
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.timelinem > div.main > div.circle5 {
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        background-color: #1049e6;
+        border-radius: 50%;
+        margin-right: 600px;
+        margin-top: -150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    section.timelinem > div.main > div.left2 {
+        width: 600px;
+        height: 275px;
+        border-right: 2px dashed #1049e6;
+        margin-top: 110px;
+        margin-left: 30px;
+        border-top: 2px dashed #1049e6;
+        border-top-right-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    section.timelinem > div.main > div.left2 > h3 {
+        margin-top: 30px;
+        margin-right: 25px;
+        font-size: 1.5rem;
+        font-family: "B Lotus", serif;
+        position: static;
+    }
+
+    section.timelinem > div.main > div.left2 > p {
+        display: flex;
+        margin-top: 20px;
+        margin-right: 30px;
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.timelinem > div.main > div.circle6 {
+        z-index: 3;
+        width: 40px;
+        height: 40px;
+        background-color: #1049e6;
+        border-radius: 50%;
+        margin-left: 630px;
+        margin-top: -150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    /*end main-timeline*/
+
+    /*main-blog*/
+
+    section.blogm {
+        width: 100%;
+        height: fit-content;
+        background-color: rgba(16, 73, 230, 0.37);
+        margin-top: 200px;
+    }
+
+    section.blogm > div.top {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section.blogm > div.top > h1 {
+        font-size: 3rem;
+        font-family: "B Compset", serif;
+    }
+
+    section.blogm > div.top > div {
+        width: 150px;
+        height: 3px;
+        background-color: #1049e6;
+        margin-top: -80px;
+    }
+    section.blogm > div{
+        width: 100%;
+        height:inherit;
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+    }
+    section.blogm > div> div.card {
+        width:40%;
+        height: 450px;
+        position: relative;
+        perspective: 1500px;
+    }
+
+    section.blogm > div> div.card > div.front {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        /*margin-right: 50px;*/
+        border-radius: 10px;
+        transform: rotateY(0deg);
+        backface-visibility: hidden;
+        transition: all 2s linear;
+    }
+
+    section.blogm > div> div.card:hover > div.front {
+        transform: rotateY(180deg);
+    }
+
+    section.blogm > div> div.card:hover > div.back {
+        transform: rotateY(360deg);
+        transition: all 2s linear;
+    }
+
+    section.blogm > div>div.card > div.back {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        transform: rotateY(180deg);
+        background-color: #ffffff;
+        transition: all 2s linear;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.blogm > div>div.card > div.back > a {
+        width: 150px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1049e6;
+        color: black;
+        border-radius: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        font-size: 1.25rem;
+        transition: all 400ms;
+    }
+
+    section.blogm > div>div.card > div.back > a:hover {
+        background-color: rgba(16, 73, 230, 0.53);
+        transition: all 400ms;
+    }
+
+    section.blogm > div>div.card > div.front > img:nth-of-type(1) {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        display: block;
+    }
+
+    section.blogm > div>div.card > div.front > h3 {
+        font-size: 1.75rem;
+        font-family: "B Karim", serif;
+        padding-right: 10px;
+    }
+
+    section.blogm > div>div.card > div.front > p {
+        padding-right: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.blogm > div>div.card > div.front >div{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 10px;
+        margin-top: 20px;
+    }
+
+    section.blogm > div>div.card > div.front >div> img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        margin-right: 200px;
+        position: fixed;
+    }
+
+    section.blogm > div>div.card > div.front > h2 {
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        padding-right: 10px;
+        margin-top: -10px;
+    }
+
+
+    section.blogm > div>div.card2 {
+        width: 40%;
+        height: 450px;
+        position: relative;
+        perspective: 1500px;
+    }
+
+    section.blogm > div>div.card2 > div.front2 {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 10px;
+        transform: rotateY(0deg);
+        backface-visibility: hidden;
+        transition: all 2s linear;
+    }
+
+    section.blogm > div>div.card2:hover > div.front2 {
+        transform: rotateY(180deg);
+    }
+
+    section.blogm > div>div.card2:hover > div.back2 {
+        transform: rotateY(360deg);
+        transition: all 2s linear;
+    }
+
+    section.blogm > div>div.card2 > div.back2 {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        transform: rotateY(180deg);
+        background-color: #ffffff;
+        transition: all 2s linear;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.blogm > div>div.card2 > div.back2 > a {
+        width: 150px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1049e6;
+        color: black;
+        border-radius: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        font-size: 1.25rem;
+        transition: all 400ms;
+    }
+
+    section.blogm > div>div.card2 > div.back2 > a:hover {
+        background-color: rgba(16, 73, 230, 0.53);
+        transition: all 400ms;
+    }
+
+    section.blogm > div>div.card2 > div.front2 > img:nth-of-type(1) {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        display: block;
+    }
+
+    section.blogm > div>div.card2 > div.front2 > h3 {
+        font-size: 1.75rem;
+        font-family: "B Karim", serif;
+        padding-right: 10px;
+    }
+
+    section.blogm > div>div.card2 > div.front2 > p {
+        padding-right: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.blogm > div>div.card2 > div.front2 >div{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    section.blogm > div>div.card2 > div.front2 >div> img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.blogm > div>div.card2 > div.front2 > h2 {
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        padding-right: 10px;
+        margin-top: -30px;
+    }
+
+
+    section.blogm > div>div.card3 {
+        width: 40%;
+        height: 450px;
+        position: relative;
+        perspective: 1500px;
+    }
+
+    section.blogm > div>div.card3 > div.front3 {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 10px;
+        transform: rotateY(0deg);
+        backface-visibility: hidden;
+        transition: all 2s linear;
+    }
+
+    section.blogm > div>div.card3:hover > div.front3 {
+        transform: rotateY(180deg);
+    }
+
+    section.blogm > div>div.card3:hover > div.back3 {
+        transform: rotateY(360deg);
+        transition: all 2s linear;
+    }
+
+    section.blogm > div>div.card3 > div.back3 {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        transform: rotateY(180deg);
+        background-color: #ffffff;
+        transition: all 2s linear;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.blogm > div>div.card3 > div.back3 > a {
+        width: 150px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1049e6;
+        color: black;
+        border-radius: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        font-size: 1.25rem;
+        transition: all 400ms;
+    }
+
+    section.blogm > div>div.card3 > div.back3 > a:hover {
+        background-color: rgba(16, 73, 230, 0.53);
+        transition: all 400ms;
+    }
+
+    section.blogm >div> div.card3 > div.front3 > img:nth-of-type(1) {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        display: block;
+    }
+
+    section.blogm >div> div.card3 > div.front3 > h3 {
+        font-size: 1.75rem;
+        font-family: "B Karim", serif;
+        padding-right: 10px;
+    }
+
+    section.blogm >div> div.card3 > div.front3 > p {
+        padding-right: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.blogm > div>div.card3 > div.front3 > div{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    section.blogm > div>div.card3 > div.front3 > div>img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-right: 210px;
+        display: block;
+    }
+
+    section.blogm >div> div.card3 > div.front3 > h2 {
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        margin-top: -35px;
+        padding-right: 10px;
+    }
+
+    section.blogm > div.wo{
+        width: 100%;
+        height:500px;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    section.blogm > div.wo>div.card4 {
+        width: 40%;
+        height: 450px;
+        position: relative;
+        perspective: 1500px;
+
+    }
+
+    section.blogm > div.wo>div.card4 > div.front4 {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 10px;
+        transform: rotateY(0deg);
+        backface-visibility: hidden;
+        transition: all 2s linear;
+    }
+
+    section.blogm > div.wo>div.card4:hover > div.front4 {
+        transform: rotateY(180deg);
+    }
+
+    section.blogm > div.wo>div.card4:hover > div.back4 {
+        transform: rotateY(360deg);
+        transition: all 2s linear;
+    }
+
+    section.blogm >div.wo> div.card4 > div.back4 {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        transform: rotateY(180deg);
+        background-color: #ffffff;
+        transition: all 2s linear;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.blogm >div.wo> div.card4 > div.back4 > a {
+        width: 150px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1049e6;
+        color: black;
+        border-radius: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        font-size: 1.25rem;
+        transition: all 400ms;
+    }
+
+    section.blogm > div.wo>div.card4 > div.back4 > a:hover {
+        background-color: rgba(16, 73, 230, 0.53);
+        transition: all 400ms;
+    }
+
+    section.blogm >div.wo> div.card4 > div.front4 > img:nth-of-type(1) {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        display: block;
+    }
+
+    section.blogm > div.wo>div.card4 > div.front4 > h3 {
+        font-size: 1.75rem;
+        font-family: "B Karim", serif;
+        padding-right: 10px;
+    }
+
+    section.blogm >div.wo> div.card4 > div.front4 > p {
+        padding-right: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.blogm > div.wo>div.card4 > div.front4 > div{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    section.blogm > div.wo>div.card4 > div.front4 > div>img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-right: 210px;
+        display: block;
+    }
+
+    section.blogm >div.wo> div.card4 > div.front4 > h2 {
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        margin-top: -35px;
+        padding-right: 10px;
+    }
+
+    /*end main-blog*/
+    /*end main*/
+    /*footer*/
+    /*footer so-media*/
+    section.so-mediam {
+        width: 100%;
+        height: 200px;
+        background-color: rgba(0, 0, 0, 0.89);
+        display: flex;
+
+
+    }
+
+    section.so-mediam > div {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+    }
+    section.so-mediam > div > a{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    section.so-mediam > div > a > i {
+        color: #1049e6;
+        font-size: 1.5rem;
+        padding-right: 30px;
+        transition: all 400ms;
+    }
+
+    section.so-mediam > div > a > i:hover {
+        color: white;
+        transition: all 400ms;
+    }
+
+    section.so-mediam > div > h1 {
+        font-size: 2rem;
+        color: rgb(128, 128, 128);
+        font-family: "B Karim", serif;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}

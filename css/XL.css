@@ -1,0 +1,1923 @@
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1400px) {
+
+    /*header*/
+    /*header-top*/
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: #ffffff;
+        display: flex;
+    }
+
+    section.top {
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        z-index: 10;
+        background-color: #ffffff;
+    }
+
+    section.top > div.logo {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+    }
+
+    section.top > div.logo > h1 {
+        font-size: 3rem;
+        font-family: IranNastaliq, serif;
+        padding-right: 200px;
+        margin-top: -10px;
+        text-shadow: 5px 10px rgba(0, 0, 0, 0.04);
+    }
+
+    section.top > div.logo > h1 > span {
+        color: #1049e6;
+    }
+
+    section.top > div.menu {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+    }
+
+    section.top > div.menu > nav {
+        width: 100%;
+        height: inherit;
+        display: flex;
+    }
+
+    section.top > div.menu > nav > ul {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        padding-right: 900px;
+        margin-top: -120px;
+        font-family: IranNastaliq, serif;
+        font-size: 2rem;
+    }
+
+    section.top > div.menu > nav > ul > li {
+        padding-right: 50px;
+    }
+
+    section.top > div.menu > nav > ul > li > a {
+        color: black;
+        transition: all 300ms;
+    }
+
+    section.top > div.menu > nav > ul > li > a:hover {
+        color: #1049e6;
+        transition: all 300ms;
+    }
+
+    /*end header-top*/
+    /*end header*/
+    /*main*/
+    /*main-bio*/
+    main {
+        width: 100%;
+        height: 100vh;
+    }
+
+    section.bio {
+        width: 100%;
+        height: 630px;
+        display: flex;
+    }
+
+    section.bio > div.right {
+        width: 50%;
+        height: inherit;
+    }
+
+    section.bio > div.right > div {
+        width: 100px;
+        height: 10px;
+        background-color: #1049e6;
+        margin-top: 140px;
+        margin-right: 200px;
+    }
+
+    section.bio > div.right > h1 {
+        font-size: 5rem;
+        font-family: "B Karim", serif;
+        padding-right: 200px;
+        margin-top: -20px;
+    }
+
+    section.bio > div.right > p {
+        font-size: 1.5rem;
+        font-family: "B Karim", serif;
+        padding-right: 200px;
+        font-weight: 800;
+    }
+
+    section.bio > div.right > a:nth-of-type(2) > i {
+        font-size: 1.5rem;
+        padding-right: 40px;
+        padding-top: 30px;
+        transition: all 500ms;
+        color: black;
+    }
+
+    section.bio > div.right > a:nth-of-type(2) > i.fa-facebook {
+        margin-right: 170px;
+    }
+
+    section.bio > div.right > a:nth-of-type(2) > i:hover {
+        color: #1049e6;
+        transition: all 500ms;
+    }
+
+    section.bio > div.right > a:nth-of-type(1) {
+        width: 150px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1049e6;
+        margin-right: 200px;
+        margin-top: 30px;
+        font-size: 1.75rem;
+        font-weight: 800;
+        font-family: "B Compset", serif;
+        color: black;
+        transition: all 500ms;
+    }
+
+    section.bio > div.right > a:nth-of-type(1):hover {
+        background-color: rgba(16, 73, 230, 0.57);
+        transition: all 500ms;
+    }
+
+    section.bio > div.left > div.line {
+        display: flex;
+        width: 350px;
+        height: 400px;
+        border: 6px solid #1049e6;
+        border-radius: 5px;
+        margin-right: 250px;
+        margin-top: 125px;
+    }
+
+    section.bio > div.left > div.img > img {
+        display: flex;
+        width: 350px;
+        height: 400px;
+        margin-top: -430px;
+        margin-right: 200px;
+        border-radius: 5px;
+    }
+
+    /*end main-bio*/
+    /*main-about*/
+    section.about {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(16, 73, 230, 0.08);
+        display: flex;
+    }
+
+    section.about > div.right {
+        width: 50%;
+        height: inherit;
+    }
+
+    section.about > div.right > div {
+        width: 300px;
+        height: 500px;
+        border: 7px solid #1049e6;
+        border-radius: 5px;
+        margin-right: 300px;
+        margin-top: 100px;
+    }
+
+    section.about > div.right > div > img {
+        width: 300px;
+        height: 500px;
+        margin-right: 30px;
+        margin-top: -35px;
+        border-radius: 5px;
+    }
+
+    section.about > div.left {
+        width: 50%;
+        height: inherit;
+    }
+
+    section.about > div.left > h1 {
+        margin-top: 60px;
+        font-size: 3rem;
+        font-family: "B Karim", serif;
+    }
+
+    section.about > div.left > div {
+        width: 100px;
+        height: 5px;
+        background-color: #1049e6;
+    }
+
+    section.about > div.left > p {
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        font-weight: 600;
+        margin-top: 20px;
+        padding-left: 200px;
+    }
+
+    section.about > div.left > a {
+        width: 125px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(16, 73, 230);
+        color: black;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        margin-top: 35px;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.about > div.left > a:hover {
+        background-color: rgba(16, 73, 230, 0.58);
+        transition: all 500ms;
+    }
+
+    /*end main-about*/
+    /*main-services*/
+    section.services {
+        width: 100%;
+        height: 500px;
+    }
+
+    section.services > div.top {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    section.services > div.top > h1 {
+        width: 10px;
+        font-size: 3.5rem;
+        font-family: "B Karim", serif;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.services > div.top > div {
+        width: 100px;
+        height: 5px;
+        background-color: #1049e6;
+        margin-top: -50px;
+    }
+
+    section.services >div{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    section.services >div> div.first {
+        width: 23%;
+        height: 315px;
+        background-color: rgba(16, 73, 230, 0.08);
+        /*margin-right: 100px;*/
+        /*margin-top: 30px;*/
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.services > div>div.first > i {
+        margin-top: 40px;
+        font-size: 2.25rem;
+    }
+
+    section.services > div>div.first > h3 {
+        margin-top: 10px;
+        font-size: 1.5rem;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+    }
+
+    section.services > div>div.first > div {
+        width: 100px;
+        height: 2px;
+        background-color: #1049e6;
+        color: white;
+        transition: all 500ms;
+    }
+
+    section.services > div>div.first > p {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    section.services > div>div.first:hover {
+        color: white;
+        background-color: #1049e6;
+        transition: all 500ms;
+    }
+
+    section.services > div>div.first:hover > div {
+        width: 100px;
+        height: 2px;
+        background-color: white;
+        transition: all 500ms;
+    }
+
+    section.services >div> div.second {
+        width: 23%;
+        height: 315px;
+        background-color: rgba(16, 73, 230, 0.08);
+        /*margin-right: 470px;*/
+        /*margin-top: -313px;*/
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.services > div>div.second > i {
+        margin-top: 40px;
+        font-size: 2.25rem;
+    }
+
+    section.services > div>div.second > h3 {
+        margin-top: 10px;
+        font-size: 1.5rem;
+        font-family: "B Compset", serif;
+        font-weight: 700;
+    }
+
+    section.services > div>div.second > div {
+        width: 100px;
+        height: 2px;
+        background-color: #1049e6;
+        transition: all 500ms;
+    }
+
+    section.services > div>div.second > p {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    section.services > div>div.second:hover {
+        color: white;
+        background-color: #1049e6;
+        transition: all 500ms;
+    }
+
+    section.services > div>div.second:hover > div {
+        width: 100px;
+        height: 2px;
+        background-color: white;
+        transition: all 500ms;
+    }
+
+    section.services > div>div.third {
+        width: 23%;
+        height: 315px;
+        background-color: rgba(16, 73, 230, 0.08);
+        /*margin-right: 850px;*/
+        /*margin-top: -313px;*/
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.services > div>div.third > i {
+        margin-top: 40px;
+        font-size: 2.25rem;
+    }
+
+    section.services > div>div.third > h3 {
+        margin-top: 10px;
+        font-size: 1.5rem;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+    }
+
+    section.services > div>div.third > div {
+        width: 100px;
+        height: 2px;
+        background-color: #1049e6;
+        transition: all 500ms;
+    }
+
+    section.services > div>div.third > p {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    section.services >div> div.third:hover {
+        color: white;
+        background-color: #1049e6;
+        transition: all 500ms;
+    }
+
+    section.services > div>div.third:hover > div {
+        width: 100px;
+        height: 2px;
+        background-color: white;
+        transition: all 500ms;
+    }
+
+    /*end main-services*/
+    /*main-works*/
+    section.works {
+        width: 100%;
+        height: 800px;
+    }
+
+    section.work > div.text {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.work > div.text > h1 {
+        font-size: 3rem;
+        font-family: "B Karim", serif;
+    }
+
+    section.work > div.text > div {
+        width: 150px;
+        height: 5px;
+        background-color: #1049e6;
+    }
+
+    section.work > div.text > p {
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    section.work > div.img {
+        width: 100%;
+        height: 800px;
+        display: flex;
+
+    }
+
+    section.work > div.img > div.fi {
+        width: 380px;
+        height: 300px;
+        margin-top: 255px;
+        position: relative;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.fi > div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(16, 73, 230, 0.6);
+        position: absolute;
+        margin-top: -300px;
+        margin-right: 195px;
+        border-radius: 10px;
+        transition: all 500ms;
+        opacity: 0;
+    }
+
+    section.work > div.img > div.fi > img {
+        width: 380px;
+        height: 300px;
+        margin-right: 195px;
+        margin-top: 100px;
+        border-radius: 10px;
+        display: block;
+        transition: all 500ms;
+    }
+
+    section.work > div.img:first-child > div:hover > img {
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.fi:hover > div {
+        opacity: 1;
+        transition: all 500ms;
+    }
+
+
+    section.work > div.img > div.fi > div > a {
+        width: 380px;
+        height: 300px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        background-color: rgba(16, 73, 230, 0.53);
+        margin-top: -204px;
+        margin-right: 210px;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.fi > div > div > h1 {
+        font-family: "B Baran", serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: 90px;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.fi > div > div > h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "B Baran", serif;
+        font-weight: 200;
+        color: white;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.fi > div > div {
+        margin-right: 15px;
+        margin-top: 15px;
+        width: 350px;
+        height: 275px;
+        border: 3px solid white;
+        transition: all 500ms;
+
+        cursor: pointer;
+    }
+
+    section.work > div.img > div.fi > div:hover > div {
+        animation: zoomIn 500ms;
+        transition: all 500ms linear;
+    }
+
+    @keyframes zoomIn {
+        0% {
+            transform: scale(1);
+            transition: all 1s;
+        }
+        100% {
+            transform: scale(2);
+            transition: all 1s;
+        }
+    }
+
+    section.work > div.img > div.se {
+        width: 360px;
+        height: 300px;
+    }
+
+    section.work > div.img > div.se > img {
+        width: 360px;
+        height: 300px;
+        margin-top: 255px;
+        margin-right: 220px;
+        border-radius: 10px;
+    }
+
+    section.work > div.img > div.se {
+        width: 360px;
+        height: 300px;
+        position: relative;
+        border-radius: 10px;
+        transition: all 500ms;
+        margin-top: 100px;
+    }
+
+    section.work > div.img > div.se > div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(16, 73, 230, 0.6);
+        position: absolute;
+        margin-top: -304px;
+        margin-right: 220px;
+        border-radius: 10px;
+        transition: all 500ms;
+        opacity: 0;
+    }
+
+    section.work > div.img:first-child > div:hover > img {
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.se:hover > div {
+        opacity: 1;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.se > div > a {
+        width: 360px;
+        height: 300px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        background-color: rgba(16, 73, 230, 0.53);
+        margin-top: -204px;
+        margin-right: 210px;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.se > div > div > h1 {
+        font-family: "B Baran", serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: 90px;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.se > div > div > h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "B Baran", serif;
+        font-weight: 200;
+        color: white;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.se > div > div {
+        margin-right: 10px;
+        margin-top: 15px;
+        width: 340px;
+        height: 275px;
+        border: 3px solid white;
+        transition: all 500ms;
+        cursor: pointer;
+    }
+
+    section.work > div.img > div.se > div:hover > div {
+        animation: zoomIn 500ms;
+        transition: all 500ms linear;
+    }
+
+    section.work > div.img > div.th {
+        width: 775px;
+        height: 300px;
+        margin-right: -530px;
+    }
+
+    section.work > div.img > div.th > img {
+        margin-left: 200px;
+        width: 775px;
+        height: 300px;
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+
+    section.work > div.img > div.th {
+        width: 775px;
+        height: 300px;
+        position: relative;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.th > div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(16, 73, 230, 0.6);
+        position: absolute;
+        margin-top: -300px;
+        margin-right: -20px;
+        border-radius: 10px;
+        transition: all 500ms;
+        opacity: 0;
+    }
+
+    section.work > div.img > div.th > img {
+        width: 775px;
+        height: 300px;
+        margin-right: -20px;
+        border-radius: 10px;
+        display: block;
+        transition: all 500ms;
+    }
+
+    section.work > div.img:first-child > div:hover > img {
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.th:hover > div {
+        opacity: 1;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.th > div > a {
+        width: 775px;
+        height: 300px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        background-color: rgba(16, 73, 230, 0.53);
+        margin-top: -204px;
+        margin-right: -530px;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.th > div > div > h1 {
+        font-family: "B Baran", serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: 90px;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.th > div > div > h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "B Baran", serif;
+        font-weight: 200;
+        color: white;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.th > div > div {
+        margin-right: 10px;
+        margin-top: 15px;
+        width: 750px;
+        height: 275px;
+        border: 3px solid white;
+        transition: all 500ms;
+        cursor: pointer;
+    }
+
+    section.work > div.img > div.th > div:hover > div {
+        animation: zoomIn 500ms;
+        transition: all 500ms linear;
+    }
+
+
+    section.work > div.img > div.fo {
+        width: 375px;
+        height: 565px;
+        margin-left: 400px;
+        margin-top: 20px;
+    }
+
+    section.work > div.img > div.fo > img {
+        width: 375px;
+        height: 600px;
+        border-radius: 10px;
+        display: flex;
+        margin-left: 400px;
+        margin-top: 20px;
+    }
+
+    section.work > div.img > div.fo {
+        width: 375px;
+        height: 620px;
+        position: relative;
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.fo > div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(16, 73, 230, 0.6);
+        position: absolute;
+        margin-top: -620px;
+        border-radius: 10px;
+        transition: all 500ms;
+        opacity: 0;
+    }
+
+    section.work > div.img > div.fo > img {
+        width: 375px;
+        height: 620px;
+        border-radius: 10px;
+        display: block;
+        transition: all 500ms;
+    }
+
+    section.work > div.img:first-child > div:hover > img {
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.fo:hover > div {
+        opacity: 1;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.fo > div > a {
+        width: 375px;
+        height: 690px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        background-color: rgba(16, 73, 230, 0.53);
+        border-radius: 10px;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.fo > div > div > h1 {
+        font-family: "B Baran", serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: 250px;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.fo > div > div > h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "B Baran", serif;
+        font-weight: 200;
+        color: white;
+        transition: all 500ms;
+    }
+
+    section.work > div.img > div.fo > div > div {
+        margin-right: 10px;
+        margin-top: 15px;
+        width: 350px;
+        height: 595px;
+        border: 3px solid white;
+        transition: all 500ms;
+        cursor: pointer;
+    }
+
+    section.work > div.img > div.fo > div:hover > div {
+        animation: zoomIn 500ms;
+        transition: all 500ms linear;
+    }
+
+    /*end main-work*/
+    /*main-contact*/
+    section.contact {
+        width: 100%;
+        height: 850px;
+        background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(227, 221, 221, 0.7)), url(/img/149553-black_background-blue-skull.jpg) center/cover no-repeat;
+        overflow: hidden;
+    }
+
+    section.contact > div.con {
+        width: 650px;
+        height: 385px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 300px auto;
+    }
+
+    section.contact > div.con > h1 {
+        font-size: 3rem;
+        margin-top: -40px;
+        font-family: "B Karim", serif;
+    }
+
+    section.contact > div.con > div {
+        width: 150px;
+        height: 3px;
+        background-color: #1049e6;
+    }
+
+    section.contact > div.con > p {
+        text-align: center;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        margin-top: 30px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    section.contact > div.con > a {
+        margin-top: 20px;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #1049e6;
+        color: black;
+        font-size: 1.25rem;
+        font-family: "B Baran", serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 400ms;
+    }
+
+    section.contact > div.con > a:hover {
+        background-color: rgba(16, 73, 230, 0.52);
+        transition: all 400ms;
+    }
+
+    /*end main-contact*/
+    /*main-skill*/
+    section.skill {
+        width: 100%;
+        height: 650px;
+        background-color: rgba(16, 73, 230, 0.37);
+        margin-top: 100px;
+
+    }
+
+    section.skill > div.top {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section.skill > div.top > h1 {
+        font-size: 3rem;
+        font-family: "B Karim", serif;
+    }
+
+    section.skill > div.top > div {
+        width: 150px;
+        height: 3px;
+        background-color: #1049e6;
+    }
+
+    section.skill > div.web {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+    }
+
+    section.skill > div.web > div.end {
+        width: 50%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    section.skill > div.web > div.end > h1 {
+        font-size: 3rem;
+        margin-top: 20px;
+        font-family: "Microsoft Uighur", serif;
+        font-weight: 800;
+    }
+
+    section.skill > div.web > div.end > h3:nth-of-type(1) {
+        font-size: 1.5rem;
+        font-family: "Microsoft Uighur", serif;
+        margin-top: 20px;
+        word-spacing: 250px;
+    }
+
+    section.skill > div.web > div.end > div.n1 {
+        width: 600px;
+        height: 20px;
+        border-radius: 25px;
+        background-color: white;
+        margin-top: 15px;
+    }
+
+    section.skill > div.web > div.end > div.n2 {
+        width: 320px;
+        height: 20px;
+        border-radius: 25px;
+        background-color: #1049e6;
+        margin-top: -20px;
+    }
+
+    section.skill > div.web > div.end > h3:nth-of-type(2) {
+        font-size: 1.5rem;
+        font-family: "Microsoft Uighur", serif;
+        margin-top: 20px;
+        word-spacing: 370px;
+    }
+
+    section.skill > div.web > div.end > div.n23 {
+        width: 440px;
+        height: 20px;
+        border-radius: 25px;
+        background-color: #1049e6;
+        margin-top: -20px;
+    }
+
+    section.skill > div.web > div.end > h3:nth-of-type(3) {
+        font-size: 1.5rem;
+        font-family: "Microsoft Uighur", serif;
+        margin-top: 20px;
+        word-spacing: 420px;
+    }
+
+    section.skill > div.web > div.end > div.n234 {
+        width: 500px;
+        height: 20px;
+        border-radius: 25px;
+        background-color: #1049e6;
+        margin-top: -20px;
+    }
+
+    section.skill > div.web > div.front {
+        width: 50%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        margin-left: 150px;
+    }
+
+    section.skill > div.web > div.front > h1 {
+        font-size: 3rem;
+        margin-top: 20px;
+        font-family: "Microsoft Uighur", serif;
+        font-weight: 800;
+    }
+
+    section.skill > div.web > div.front > h3:nth-of-type(1) {
+        font-size: 1.5rem;
+        font-family: "Microsoft Uighur", serif;
+        margin-top: 20px;
+        word-spacing: 210px;
+    }
+
+    section.skill > div.web > div.front > div.n1 {
+        width: 600px;
+        height: 20px;
+        border-radius: 25px;
+        background-color: white;
+        margin-top: 15px;
+    }
+
+    section.skill > div.web > div.front > div.n2 {
+        width: 320px;
+        height: 20px;
+        border-radius: 25px;
+        background-color: #1049e6;
+        margin-top: -20px;
+    }
+
+    section.skill > div.web > div.front > h3:nth-of-type(2) {
+        font-size: 1.5rem;
+        font-family: "Microsoft Uighur", serif;
+        margin-top: 20px;
+        word-spacing: 340px;
+    }
+
+    section.skill > div.web > div.front > div.n23 {
+        width: 440px;
+        height: 20px;
+        border-radius: 25px;
+        background-color: #1049e6;
+        margin-top: -20px;
+    }
+
+    section.skill > div.web > div.front > h3:nth-of-type(3) {
+        font-size: 1.5rem;
+        font-family: "Microsoft Uighur", serif;
+        margin-top: 20px;
+        word-spacing: 440px;
+    }
+
+    section.skill > div.web > div.front > div.n234 {
+        width: 500px;
+        height: 20px;
+        border-radius: 25px;
+        background-color: #1049e6;
+        margin-top: -20px;
+    }
+
+    /*end main-skill*/
+    /*main timeline*/
+    section.timeline {
+        width: 100%;
+        height: 1930px;
+        background-color: white;
+    }
+
+    section.timeline > div.top {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section.timeline > div.top > h1 {
+        margin-top: 30px;
+        font-size: 3rem;
+        font-family: "B Compset", serif;
+    }
+
+    section.timeline > div.top > div {
+        width: 150px;
+        height: 2px;
+        background-color: #1049e6;
+    }
+
+    section.timeline > div.main {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.timeline > div.main > div.right {
+        width: 600px;
+        height: 250px;
+        border-left: 2px dashed #1049e6;
+        margin-right: 450px;
+        margin-top: 80px;
+        border-bottom-left-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    section.timeline > div.main > div.right > h3 {
+        font-size: 1.5rem;
+        font-family: "B Lotus", serif;
+        position: static;
+        color: black;
+
+    }
+
+    section.timeline > div.main > div.right > p {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.timeline > div.main > div.circle1 {
+        width: 40px;
+        height: 40px;
+        background-color: #1049e6;
+        border-radius: 50%;
+        position: absolute;
+        margin-right: 1030px;
+        margin-top: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    section.timeline > div.main > div.left {
+        width: 600px;
+        height: 275px;
+        border-right: 2px dashed #1049e6;
+        margin-right: 420px;
+        border-top: 2px dashed #1049e6;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    section.timeline > div.main > div.left > h3 {
+        margin-top: 30px;
+        margin-right: 25px;
+        font-size: 1.5rem;
+        font-family: "B Lotus", serif;
+        position: static;
+    }
+
+    section.timeline > div.main > div.left > p {
+        display: flex;
+        margin-top: 20px;
+        margin-right: 30px;
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.timeline > div.main > div.circle2 {
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        background-color: #1049e6;
+        border-radius: 50%;
+        position: absolute;
+        margin-right: 400px;
+        margin-top: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    section.timeline > div.main > div.right1 {
+        width: 600px;
+        height: 275px;
+        border-left: 2px dashed #1049e6;
+        margin-right: 460px;
+        border-top: 2px dashed #1049e6;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    section.timeline > div.main > div.right1 > h3 {
+        margin-top: 30px;
+        margin-right: -10px;
+        font-size: 1.5rem;
+        font-family: "B Lotus", serif;
+        position: static;
+    }
+
+    section.timeline > div.main > div.right1 > p {
+        display: flex;
+        margin-top: 20px;
+        margin-right: -10px;
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.timeline > div.main > div.circle3 {
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        background-color: #1049e6;
+        border-radius: 50%;
+        margin-right: 1040px;
+        margin-top: -150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    section.timeline > div.main > div.left1 {
+        width: 600px;
+        height: 275px;
+        border-right: 2px dashed #1049e6;
+        margin-right: 420px;
+        margin-top: 110px;
+        border-top: 2px dashed #1049e6;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    section.timeline > div.main > div.left1 > h3 {
+        margin-top: 30px;
+        margin-right: 25px;
+        font-size: 1.5rem;
+        font-family: "B Lotus", serif;
+        position: static;
+    }
+
+    section.timeline > div.main > div.left1 > p {
+        display: flex;
+        margin-top: 20px;
+        margin-right: 30px;
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.timeline > div.main > div.circle4 {
+        z-index: 3;
+        width: 40px;
+        height: 40px;
+        background-color: #1049e6;
+        border-radius: 50%;
+        margin-right: 400px;
+        margin-top: -150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    section.timeline > div.main > div.right2 {
+        width: 600px;
+        height: 275px;
+        border-left: 2px dashed #1049e6;
+        margin-right: 460px;
+        margin-top: 110px;
+        border-top: 2px dashed #1049e6;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    section.timeline > div.main > div.right2 > h3 {
+        margin-top: 30px;
+        margin-right: -10px;
+        font-size: 1.5rem;
+        font-family: "B Lotus", serif;
+        position: static;
+    }
+
+    section.timeline > div.main > div.right2 > p {
+        display: flex;
+        margin-top: 20px;
+        margin-right: -10px;
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.timeline > div.main > div.circle5 {
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        background-color: #1049e6;
+        border-radius: 50%;
+        margin-right: 1040px;
+        margin-top: -150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    section.timeline > div.main > div.left2 {
+        width: 600px;
+        height: 275px;
+        border-right: 2px dashed #1049e6;
+        margin-right: 420px;
+        margin-top: 110px;
+        border-top: 2px dashed #1049e6;
+        border-top-right-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    section.timeline > div.main > div.left2 > h3 {
+        margin-top: 30px;
+        margin-right: 25px;
+        font-size: 1.5rem;
+        font-family: "B Lotus", serif;
+        position: static;
+    }
+
+    section.timeline > div.main > div.left2 > p {
+        display: flex;
+        margin-top: 20px;
+        margin-right: 30px;
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.timeline > div.main > div.circle6 {
+        z-index: 3;
+        width: 40px;
+        height: 40px;
+        background-color: #1049e6;
+        border-radius: 50%;
+        margin-right: 400px;
+        margin-top: -150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    /*end main-timeline*/
+    /*main-blog*/
+    section.blog {
+        width: 100%;
+        height: 1350px;
+        background-color: rgba(16, 73, 230, 0.37);
+    }
+
+    section.blog > div.top {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section.blog > div.top > h1 {
+        font-size: 3rem;
+        font-family: "B Compset", serif;
+    }
+
+    section.blog > div.top > div {
+        width: 150px;
+        height: 3px;
+        background-color: #1049e6;
+        margin-top: -80px;
+    }
+    section.blog > div{
+        width: 100%;
+        height:fit-content;
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+    }
+    section.blog > div>div.card {
+        width: 25%;
+        height: 450px;
+        position: relative;
+        perspective: 1500px;
+    }
+
+    section.blog > div>div.card > div.front {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        /*margin-right: 200px;*/
+        border-radius: 10px;
+        transform: rotateY(0deg);
+        backface-visibility: hidden;
+        transition: all 2s linear;
+    }
+
+    section.blog > div>div.card:hover > div.front {
+        transform: rotateY(180deg);
+    }
+
+    section.blog > div>div.card:hover > div.back {
+        transform: rotateY(360deg);
+        transition: all 2s linear;
+    }
+
+    section.blog > div>div.card > div.back {
+        width: 100%;
+        height: 100%;
+        /*margin-right: 200px;*/
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        transform: rotateY(180deg);
+        background-color: #ffffff;
+        transition: all 2s linear;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.blog > div>div.card > div.back > a {
+        width: 150px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1049e6;
+        color: black;
+        border-radius: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        font-size: 1.25rem;
+        transition: all 400ms;
+    }
+
+    section.blog > div>div.card > div.back > a:hover {
+        background-color: rgba(16, 73, 230, 0.53);
+        transition: all 400ms;
+    }
+
+    section.blog > div>div.card > div.front > img:nth-of-type(1) {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        display: block;
+    }
+
+    section.blog > div>div.card > div.front > h3 {
+        font-size: 1.75rem;
+        font-family: "B Karim", serif;
+        padding-right: 10px;
+    }
+
+    section.blog > div>div.card > div.front > p {
+        padding-right: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.blog > div>div.card > div.front > img:nth-of-type(2) {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-right: 320px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    section.blog > div>div.card > div.front > h2 {
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        margin-top: -35px;
+        padding-right: 10px;
+    }
+
+
+    section.blog > div>div.card2 {
+        width: 25%;
+        height: 450px;
+        position: relative;
+        perspective: 1500px;
+        /*margin-right: 600px;*/
+        /*margin-top: -450px;*/
+    }
+
+    section.blog > div>div.card2 > div.front2 {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 10px;
+        transform: rotateY(0deg);
+        backface-visibility: hidden;
+        transition: all 2s linear;
+    }
+
+    section.blog > div>div.card2:hover > div.front2 {
+        transform: rotateY(180deg);
+    }
+
+    section.blog >div> div.card2:hover > div.back2 {
+        transform: rotateY(360deg);
+        transition: all 2s linear;
+    }
+
+    section.blog >div> div.card2 > div.back2 {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        transform: rotateY(180deg);
+        background-color: #ffffff;
+        transition: all 2s linear;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.blog > div>div.card2 > div.back2 > a {
+        width: 150px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1049e6;
+        color: black;
+        border-radius: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        font-size: 1.25rem;
+        transition: all 400ms;
+    }
+
+    section.blog >div> div.card2 > div.back2 > a:hover {
+        background-color: rgba(16, 73, 230, 0.53);
+        transition: all 400ms;
+    }
+
+    section.blog > div>div.card2 > div.front2 > img:nth-of-type(1) {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        display: block;
+    }
+
+    section.blog > div>div.card2 > div.front2 > h3 {
+        font-size: 1.75rem;
+        font-family: "B Karim", serif;
+        padding-right: 10px;
+    }
+
+    section.blog > div>div.card2 > div.front2 > p {
+        padding-right: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.blog > div>div.card2 > div.front2 > img:nth-of-type(2) {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-right: 320px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    section.blog > div>div.card2 > div.front2 > h2 {
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        margin-top: -35px;
+        padding-right: 10px;
+    }
+
+
+    section.blog > div>div.card3 {
+        width: 25%;
+        height: 450px;
+        position: relative;
+        perspective: 1500px;
+        /*margin-right: 1000px;*/
+        /*margin-top: -450px;*/
+    }
+
+    section.blog > div>div.card3 > div.front3 {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 10px;
+        transform: rotateY(0deg);
+        backface-visibility: hidden;
+        transition: all 2s linear;
+    }
+
+    section.blog >div> div.card3:hover > div.front3 {
+        transform: rotateY(180deg);
+    }
+
+    section.blog >div> div.card3:hover > div.back3 {
+        transform: rotateY(360deg);
+        transition: all 2s linear;
+    }
+
+    section.blog > div>div.card3 > div.back3 {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        transform: rotateY(180deg);
+        background-color: #ffffff;
+        transition: all 2s linear;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.blog > div>div.card3 > div.back3 > a {
+        width: 150px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1049e6;
+        color: black;
+        border-radius: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        font-size: 1.25rem;
+        transition: all 400ms;
+    }
+
+    section.blog >div> div.card3 > div.back3 > a:hover {
+        background-color: rgba(16, 73, 230, 0.53);
+        transition: all 400ms;
+    }
+
+    section.blog > div>div.card3 > div.front3 > img:nth-of-type(1) {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        display: block;
+    }
+
+    section.blog > div>div.card3 > div.front3 > h3 {
+        font-size: 1.75rem;
+        font-family: "B Karim", serif;
+        padding-right: 10px;
+    }
+
+    section.blog > div>div.card3 > div.front3 > p {
+        padding-right: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.blog > div>div.card3 > div.front3 > img:nth-of-type(2) {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-right: 320px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    section.blog > div>div.card3 > div.front3 > h2 {
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        margin-top: -35px;
+        padding-right: 10px;
+    }
+
+    section.blog > div.wo{
+        width: 100%;
+        height:fit-content;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    section.blog > div.wo>div.card4 {
+        width: 25%;
+        height: 500px;
+        position: relative;
+        perspective: 1500px;
+    }
+
+    section.blog > div.wo>div.card4 > div.front4 {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 10px;
+        transform: rotateY(0deg);
+        backface-visibility: hidden;
+        transition: all 2s linear;
+    }
+
+    section.blog > div.wo>div.card4:hover > div.front4 {
+        transform: rotateY(180deg);
+    }
+
+    section.blog > div.wo>div.card4:hover > div.back4 {
+        transform: rotateY(360deg);
+        transition: all 2s linear;
+    }
+
+    section.blog > div.wo>div.card4 > div.back4 {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        transform: rotateY(180deg);
+        background-color: #ffffff;
+        transition: all 2s linear;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.blog > div.wo>div.card4 > div.back4 > a {
+        width: 150px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1049e6;
+        color: black;
+        border-radius: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        font-size: 1.25rem;
+        transition: all 400ms;
+    }
+
+    section.blog > div.wo>div.card4 > div.back4 > a:hover {
+        background-color: rgba(16, 73, 230, 0.53);
+        transition: all 400ms;
+    }
+
+    section.blog > div.wo>div.card4 > div.front4 > img:nth-of-type(1) {
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+        display: block;
+    }
+
+    section.blog > div.wo>div.card4 > div.front4 > h3 {
+        font-size: 1.75rem;
+        font-family: "B Karim", serif;
+        padding-right: 10px;
+    }
+
+    section.blog >div.wo> div.card4 > div.front4 > p {
+        padding-right: 10px;
+        font-family: "B Compset", serif;
+        font-weight: 800;
+        color: rgb(128, 128, 128);
+    }
+
+    section.blog > div.wo>div.card4 > div.front4 > img:nth-of-type(2) {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-right: 320px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    section.blog > div.wo>div.card4 > div.front4 > h2 {
+        font-size: 1.25rem;
+        font-family: "B Karim", serif;
+        margin-top: -35px;
+        padding-right: 10px;
+    }
+
+    /*end main-blog*/
+    /*end main*/
+    /*footer*/
+    /*footer so-media*/
+    section.so-media {
+        width: 100%;
+        height: 200px;
+        background-color: rgba(0, 0, 0, 0.89);
+        display: flex;
+    }
+
+    section.so-media > div {
+        width: 100%;
+        height: fit-content;
+    }
+
+    section.so-media > div > a > i {
+        color: #1049e6;
+        font-size: 1.5rem;
+        padding-right: 30px;
+        transition: all 400ms;
+    }
+
+    section.so-media > div > a > i:hover {
+        color: white;
+        transition: all 400ms;
+    }
+
+    section.so-media > div > a > i.fa-instagram {
+        margin-right: 600px;
+        margin-top: 60px;
+    }
+
+    section.so-media > div > h1 {
+        font-size: 2rem;
+        margin-right: 540px;
+        margin-top: 25px;
+        color: rgb(128, 128, 128);
+        font-family: "B Karim", serif;
+    }
+    header.medium{
+        display: none;
+    }
+
+    header.small{
+        display: none;
+    }
+
+    main.medium{
+        display: none;
+    }
+
+    main.small{
+        display: none;
+    }
+}
